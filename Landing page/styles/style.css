@@ -3,48 +3,135 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
 }
+
 body {
-	line-height: 1;
+    line-height: 1;
 }
-ol, ul {
-	list-style: none;
+
+ol,
+ul {
+    list-style: none;
 }
-blockquote, q {
-	quotes: none;
+
+blockquote,
+q {
+    quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 
@@ -54,24 +141,26 @@ table {
 *::before {
     box-sizing: border-box;
 }
+
 html {
-  font-family: 'Montserrat', sans-serif;  
+    font-family: 'Montserrat', sans-serif;
 }
+
 body {
     margin: 0 auto;
-    
+
 }
+
 .logo img {
-    width: 90px;
-    margin: 1.4rem 0 0 1rem;
-   
+    width: 30%;
+    margin: 0 0 1.3rem 0rem;
 }
 
 h1 {
     font-family: 'Montserrat', sans-serif;
     color: #333131;
     font-size: 3.5rem;
-    font-weight: bolder;
+    font-weight: 600;
     padding: 0.1rem 0 0.7rem 0;
 }
 
@@ -82,52 +171,61 @@ h2 {
     padding-bottom: 0.7rem;
     width: 80%;
 }
+
 .wrapper {
-    margin: 2rem;
+    margin: 0.5rem 2rem 1rem 2rem;
 }
+
 .wrapper p {
-    font-family: 'Montserrat', sans-serif;
     padding-bottom: 0.3rem;
-    line-height: 1.8rem;    
-    font-size: 1.4rem;  
+    line-height: 1.9rem;
+    font-size: 1.5rem;
+    font-weight: 300;
 }
 
-fieldset{
-   
-        border-radius: 1rem;
-        border: none;
-        padding: 20px;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.301), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        margin-bottom: 3rem;
+.fieldset-1 {
+
+    border-radius: 1rem;
+    border: none;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.301), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 3rem;
 }
 
-fieldset h1 {
-   font-size: 2rem;
+.fieldset-1 h1 {
+    font-size: 2rem;
 }
 
 .contact p {
-  font-size: 0.8rem;
-  padding: 0.6rem 0 0.5rem 0;
-  line-height: 1rem;
+    font-size: 0.8rem;
+    padding: 0.6rem 0 0.5rem 0;
+    line-height: 1rem;
 
 }
 
 fieldset p {
     padding-bottom: 0.4rem;
-    
+
 }
+
 .field-1 {
     padding: 1rem;
 }
-img {
- padding-bottom: 0.5rem;
+
+.scooter img {
+    padding-bottom: 0.5rem;
+
 }
+
 .block p {
     width: 90%;
     font-size: 16px;
     font-weight: 300;
 }
-input[type=text], select, textarea {
+
+input[type=text1],
+select,
+textarea {
     width: 100%;
     padding: 12px;
     margin-top: 4px;
@@ -136,72 +234,99 @@ input[type=text], select, textarea {
     border: none;
     border-radius: 9px;
     font-size: 1rem;
-    color: #929090;
+    font-weight: 200;
+    color: #adabab;
     letter-spacing: 0.5px;
-    
-  }
-  
-  .drive input[type=submit] {
+
+}
+
+.drive input[type=submit] {
     background-color: #57eeab;
     color: #333131;
-    padding: 11px 4px;
     border: none;
     border-radius: 8px;
     width: 100%;
     font-size: 1.5rem;
     font-weight: bolder;
-     
-  }
-  input[type=submit] {
+
+}
+
+input[type=submit] {
     background-color: #ff8480;
-    color:  #f7f7f7;
-    padding: 4px 2rem;
+    color: #f7f7f7;
+    height: 2.5rem;
     border: none;
     border-radius: 5px;
     width: 100%;
-    font-size: 24px;
-    font-weight: bolder;
+    font-size: 1.5rem;
+    font-weight: 700;
     margin-top: 0.4rem;
-     
-  }
 
-
-
-  .main-block {
-    display: flex;
-    flex-wrap: wrap;  
-  
-    
 }
 
-  input[type="hours"],
-  input[type="city"]
-  {
-      min-height: 40px;
-      margin: 0 0 0.5rem 0;
-      border-radius: 6px;
-      border: none;
-          
-  }
 
-  input[type="city"] {
-      margin-left: 0.5rem;
-      
- 
-  }
- 
+.field-1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.field-1 form {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.field-1 h2 {
+    font-size: 1.1rem;
+}
+
+.field-1 form #one {
+    width: 25%;
+    margin-right: 3%;
+    background-color: #f7f7f7;
+    border: none;
+    border-radius: 7px;
+    font-size: 1rem;
+    font-weight: 200;
+    color: #adabab;
+    padding: 8px;
+    height: 40px;
+
+}
+
+.field-1 form #two {
+    width: 72%;
+    background-color: #f7f7f7;
+    border: none;
+    border-radius: 7px;
+    font-size: 1rem;
+    font-weight: 200;
+    color: #adabab;
+    padding: 8px;
+    height: 40px;
+}
+
+.field-1 .btn {
+    width: 100%;
+    margin-top: 10px;
+}
+
+
+
 .checkbox {
     padding: 3px 0 9px 0;
-    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     font-weight: 200;
-  }
+}
 
 
 
-.block {
+.field-1 p {
     padding: 0.1rem 0 0.7rem 0;
-    font-size: 0.8rem;
+    font-size: 1rem;
+    font-weight: 200;
 }
 
 .text-2 {
@@ -213,115 +338,216 @@ footer {
     background-color: #fffd8c;
     padding: 1.3rem 1.6rem 0rem 1.6rem;
 }
+
 .icons {
     display: flex;
     justify-content: center;
     justify-content: space-evenly;
-    padding: 1.7rem 0 1rem 0;
+    padding: 1.4rem 0 1.6rem 0;
 }
 
 
-@media (min-width: 500px) {
+@media (min-width: 768px) {
 
     .wrapper {
         margin: 0.7rem 4rem 0 4rem;
     }
+
     .logo img {
-        width: 80px;   
+        width: 20%;
     }
-   .wrapper p {
-       font-size: 1rem;
-   }
+
+    .wrapper p {
+        padding-bottom: 0.6rem;
+        line-height: 2rem;
+
+    }
 
     h1 {
-        font-family: 'Montserrat', sans-serif;
-        color: #333131;
         font-size: 4rem;
         font-weight: bold;
         padding: 0 0 0.7rem 0;
     }
 
-    img {
-        width: 70%;
+    .scooter {
+        display: flex;
         justify-content: center;
-        padding-bottom: 1.5rem;
-       }
-
-       fieldset {
-           padding: 1.7rem;
-           margin-bottom: 4rem;
-       }
-       fieldset h1 {
-           font-size: 2rem;
-       }
-       fieldset p {
-        font-size: 1.3rem;
-        font-weight: 400;  
-    }
       
-    input[type=submit] {
-        background-color: #ff8480;
-        padding: 10px;  
-        font-size: 1.6rem;
-      }
-     .icons {
-         display: flex;
-         margin: 0 8rem;
-         
-     }
+    }
 
-     .checkbox {
+    .scooter img {
+        width: 70%;  
+        padding-bottom: 1.5rem; 
+    }
+
+    .drive input[type=submit] {
+        font-size: 2rem;
+        font-weight: 700;
+        min-height: 4rem;
+    
+    }
+    
+    .fieldset-1 {
+        padding: 2.3rem;
+        margin-bottom: 5rem;
+    }
+
+    .fieldset-1 h1 {
+        font-size: 2.5rem;
+    }
+ /*CONTACT FORM IN THE FOOTER*/
+    .field-1 {
+        padding: 0 3rem 0 3rem;
+    }
+
+   
+
+    .field-1 form {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .field-1 form #one {
+        width: 35%;
+        font-size: 1rem;
+        font-weight: 200;
+        padding: 6px;
+
+    }
+
+    .field-1 form #two {
+        width: 70%;
+        margin-right: 0.5rem;
+    }
+
+    .field-1 input[type=submit] {
+        width: 40%;
+       
+
+    }
+    .field-1 .btn {
+        margin-top: 0;
+    }
+
+    .fieldset-1 p {
+        font-size: 1.3rem;
+        font-weight: 400;
+    }
+
+
+    .icons {
+        display: flex;
+        margin: 0 10rem;
+    }
+
+    .checkbox {
         padding: 1px 0 16px 0;
         font-size: 16px;
         font-weight: 300;
-      }
-     .contact p br {
-            display: none;  
-            
-     }
-     .contact p {
-        text-align: center;
-     }
-      .icons img {
-        width: 25px;
-        
-    }   
-
-}
-@media (min-width: 960px) {
-    h1 {
-    
-        font-size: 4rem;
-        font-weight: bold;
-        padding: 0.6rem 0 0.7rem 0;
-      text-align: left;
     }
-    fieldset{
-        
-        border-radius: 1rem;
-        border: none;
-        padding: 20px;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.301), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        margin-bottom: 3rem;
-        width: 50%;
-        
-}
-img {
-    width: 120vh;
-    margin: 0 auto;
-  
-   }
-   .wrapper-2 {
-       display: flex;
-       flex-direction: row;
-   }
 
-  
+    .contact p {
+        font-size: 1rem;
+        padding: 1rem 0 0 4rem;
+    }
 
-   input[type=submit] {
-    background-color: #ff8480;
-    padding: 10px;  
-    font-size: 1.6rem;
-    width: 40%;
-  }
+    .icons img {
+        width: 40px;
+    }
 }
+
+
+
+    @media (min-width: 960px) {
+        h1 {
+
+            font-size: 4rem;
+            font-weight: bold;
+            padding: 0.6rem 0 0.7rem 0;
+            text-align: left;
+            width: 50%;
+        }
+      
+
+        /* fieldset {
+            border-radius: 1rem;
+            border: none;
+            padding: 20px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.301), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            margin-bottom: 3rem;
+            width: 50%;
+
+        } */
+       
+
+        img {
+            width: 120vh;
+            margin: 0 auto;
+
+        }
+
+        .field-1 {
+            width: 50%;
+        }
+        main .wrapper {
+            display: flex;
+           flex-wrap: wrap;
+        }
+       main {
+        background-image: url(images/scooter.svg);
+        background-position: center;
+
+
+       }
+
+        .wrap {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+       .contact {
+           width: 535px;
+       }
+    
+         footer {
+             padding: 2rem 1rem 2rem 2rem;
+         }
+       footer {
+           display: flex;
+           justify-content: space-between;
+       }
+       input[type=text1], select, textarea{
+           width: 80%;
+       }
+       .drive input[type=submit] {
+           width: 80%;
+       }
+    .fieldset-1 {
+        width: 31rem;
+    }
+ 
+    .scooter img {
+        width: 31rem;
+    }
+       .field-1 {
+           width: 37rem;
+       }
+       .icons {
+           width: 350px;
+           padding-top: 3rem;
+          margin-right: 2rem;
+       }
+    
+        input[type=submit] {
+            background-color: #ff8480;
+            font-size: 1.5rem;
+            width: 40%;
+        }
+        .contact p {
+            padding-left: 0;
+        }
+
+
+
+
+    }
