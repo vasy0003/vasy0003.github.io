@@ -165,7 +165,7 @@ h1 {
 }
 
 h2 {
-    font-size: 18px;
+    font-size: 1.1rem;
     font-weight: bold;
     color: #333131;
     padding-bottom: 0.7rem;
@@ -187,7 +187,7 @@ h2 {
 
     border-radius: 1rem;
     border: none;
-    padding: 20px;
+    padding: 1.2rem;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.301), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-bottom: 3rem;
 }
@@ -203,7 +203,7 @@ h2 {
 
 }
 
-fieldset p {
+.fieldset-1 p {
     padding-bottom: 0.4rem;
 
 }
@@ -219,7 +219,7 @@ fieldset p {
 
 .block p {
     width: 90%;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 300;
 }
 
@@ -372,21 +372,20 @@ footer {
     .scooter {
         display: flex;
         justify-content: center;
-      
+
     }
 
     .scooter img {
-        width: 70%;  
-        padding-bottom: 1.5rem; 
+        width: 70%;
+        padding-bottom: 1.5rem;
     }
 
     .drive input[type=submit] {
         font-size: 2rem;
         font-weight: 700;
         min-height: 4rem;
-    
     }
-    
+
     .fieldset-1 {
         padding: 2.3rem;
         margin-bottom: 5rem;
@@ -395,16 +394,15 @@ footer {
     .fieldset-1 h1 {
         font-size: 2.5rem;
     }
- /*CONTACT FORM IN THE FOOTER*/
-    .field-1 {
-        padding: 0 3rem 0 3rem;
-    }
 
+    /*CONTACT FORM IN THE FOOTER*/
    
+
 
     .field-1 form {
         display: flex;
         flex-wrap: nowrap;
+        width: 30%;
     }
 
     .field-1 form #one {
@@ -422,9 +420,10 @@ footer {
 
     .field-1 input[type=submit] {
         width: 40%;
-       
+
 
     }
+
     .field-1 .btn {
         margin-top: 0;
     }
@@ -442,7 +441,7 @@ footer {
 
     .checkbox {
         padding: 1px 0 16px 0;
-        font-size: 16px;
+        font-size: 1rem;
         font-weight: 300;
     }
 
@@ -458,96 +457,100 @@ footer {
 
 
 
-    @media (min-width: 960px) {
-        h1 {
+@media (min-width: 960px) {
+    h1 {
 
-            font-size: 4rem;
-            font-weight: bold;
-            padding: 0.6rem 0 0.7rem 0;
-            text-align: left;
-            width: 50%;
-        }
-      
+        font-size: 4rem;
+        font-weight: bold;
+        padding: 0.6rem 0 0.7rem 0;
+        text-align: left;
+        width: 50%;
+    }
 
-        /* fieldset {
-            border-radius: 1rem;
-            border: none;
-            padding: 20px;
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.301), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-            margin-bottom: 3rem;
-            width: 50%;
+    .logo img {
+        width: 40px;
+    }
+   
 
-        } */
-       
+    img {
+        width: 120vh;
+        margin: 0 auto;
 
-        img {
-            width: 120vh;
-            margin: 0 auto;
+    }
 
-        }
+    .field-1 {
+        width: 50%;
+    }
 
-        .field-1 {
-            width: 50%;
-        }
-        main .wrapper {
-            display: flex;
-           flex-wrap: wrap;
-        }
-       main {
-        background-image: url(images/scooter.svg);
+    main .wrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    main {
+        background-image: url(scooter.svg);
         background-position: center;
+    }
 
+    .wrap {
+        display: flex;
+        flex-direction: row;
 
-       }
+        width: 100%;
+    }
 
-        .wrap {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-        }
-       .contact {
-           width: 535px;
-       }
-    
-         footer {
-             padding: 2rem 1rem 2rem 2rem;
-         }
-       footer {
-           display: flex;
-           justify-content: space-between;
-       }
-       input[type=text1], select, textarea{
-           width: 80%;
-       }
-       .drive input[type=submit] {
-           width: 80%;
-       }
+    .contact {
+        width: 33rem;
+    }
+
+    footer {
+        padding: 2rem 1rem 2rem 2rem;
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    /* input[type=text1],
+    select,
+    textarea {
+        width: 80%;
+    } */
+
+    .drive input[type=submit] {
+        width: 80%;
+    }
+
     .fieldset-1 {
-        width: 31rem;
+        width: 20rem;
     }
- 
+
     .scooter img {
-        width: 31rem;
+        width: 50rem;
     }
-       .field-1 {
-           width: 37rem;
-       }
-       .icons {
-           width: 350px;
-           padding-top: 3rem;
-          margin-right: 2rem;
-       }
-    
-        input[type=submit] {
-            background-color: #ff8480;
-            font-size: 1.5rem;
-            width: 40%;
-        }
-        .contact p {
-            padding-left: 0;
-        }
 
-
-
-
+    .field-1 {
+        width: 37rem;
     }
+
+    .icons {
+        width: 22rem;
+        padding-top: 3rem;
+        margin-right: 2rem;
+    }
+
+    input[type=submit] {
+        background-color: #ff8480;
+        font-size: 1.5rem;
+        width: 40%;
+    }
+
+    .contact p {
+        padding-left: 0;
+    }
+
+
+
+
+}
