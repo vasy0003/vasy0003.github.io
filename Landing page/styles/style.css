@@ -460,8 +460,8 @@ footer {
     main {
         display: grid;
         grid-template-columns: repeat(24, 1fr);
-        grid-template-rows: minmax(30rem, 34.375em);
-        padding-top: 3rem;
+        grid-template-rows: 1fr;
+        
     }
 
     /*IFIRST BOX OF THE GRID INCLUDES THE LOGO H1 AND TEXT BELOW H1*/
@@ -477,6 +477,10 @@ footer {
     .fieldset-1 {
         border-radius: 1rem;
         padding: 2rem;
+    }
+    .fieldset-1 {
+        margin-bottom: 1.5rem;
+        margin-top: 5rem;
     }
 
     /*second BOX OF THE GRID IS SCOOTER IMAGE*/
@@ -496,9 +500,9 @@ footer {
     }
 
     .fieldset-1 fieldset {
-        margin-bottom: 3rem;
+        margin-bottom: 1rem;
     }
-    /*ICHANGING MARGIN TO 0 */
+    /*CHANGING MARGIN TO 0 */
     .enter p {
         margin: 0rem;
     }
