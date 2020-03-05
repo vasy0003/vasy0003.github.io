@@ -69,21 +69,12 @@
         <div class="master-1">
                  <div class="team-image">
               <picture>
-                  <!-- min width: 320px 
-                    <sourse srcset="images/school-375_x_200.jpg 250w,
-                    srcset="images/school-"
-                    media="(min-width: 320px)"
-                    >
-                    "
-                -->
-                  <source media="(min-width:320px)"
-                  srcset="images/school-375_x_200.jpg 320w">
-                  <source media="(min-width:768px)"
-                  srcset="images/school-768_x_200.jpg 768w">
-                    <source media="(min-width:1200px)" srcset="images/school-813_x_337.jpg 813w">
-
-                        <img src="images/school" alt="school">
-              </picture>  
+                    <picture>
+                            <source media="(max-width:767px)"
+                            srcset="images/school-375_x_200.jpg">
+                              <source media="(min-width:1200px)" srcset="images/school-813_x_337.jpg 813w">
+                                  <img src="images/school-768_x_200.jpg" alt="beer">
+                        </picture>  
         </div>
       <div class="main-wrap">
             <div class="wrap-4">
@@ -142,7 +133,7 @@
              </div>
              <div class="top">
                     <div class="arrow">      
-                           <a href="#"><img src="icons/arrow.svg" alt="arrow" > </a>
+                           <a href="#"><img src="icons/arrow.svg" alt="arrow"></a>
                            <p>back to top</p>
                       </div>
                 </div>

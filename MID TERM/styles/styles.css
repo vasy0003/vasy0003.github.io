@@ -311,6 +311,7 @@ nav a {
 
 }
 
+
 /* SCROLL BUTTON*/
 .scroll {
     display: none;
@@ -320,8 +321,12 @@ nav a {
 div.master-1 div.team-image picture img {
     width: 100%;
     height: 100%;
+    display: block;
 }
-
+div.master-2 div.beer-image picture img {
+    width: 100%;
+    height: 100%;
+}
 /* WRAP WITH PRESIDENT IMAGE AND TEXT*/
 .wrap-5 {
     background-color: #3c3b3a;
@@ -379,8 +384,10 @@ div.master-1 div.team-image picture img {
     font-size: 1.2rem;
     font-weight: 400;
     box-shadow: 0 9px 15px 0 rgba(0, 0, 0, 0.5), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+   
 
 }
+
 
 .learn-more-2 [type=self] {
     background-color: #26a682;
@@ -422,10 +429,14 @@ footer p {
 }
 
 /* BACK TO TOP ARROW */
-.arrow {
+.top{
     position: fixed;
     right: 10px;
-    bottom: 40px;
+    bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
     
 }
 
@@ -434,11 +445,13 @@ footer p {
     color: #f2f2f2;
     font-size: 0.6rem;
     font-weight: 200;
+    text-align: center;
 }
 
 .arrow img {
     width: 22px;
     height: 22px;
+    justify-content: center;
 
 }
 
@@ -803,6 +816,7 @@ textarea#message {
         justify-content: center;
         flex-direction: column;
         margin: 3rem 0 3rem 0;
+    
     }
 
     .scroll img {
@@ -891,10 +905,10 @@ textarea#message {
         align-items: center;
     }
 
-    .wrap-5 .presi {
+    /* .wrap-5 .presi {
         float: left;
         padding-bottom: 8rem;
-    }
+    } */
 
 
 
@@ -1201,6 +1215,7 @@ textarea#message {
 
     }
 
+
     .girl-img {
         grid-column: 13/ span 20;
         grid-row: 1;
@@ -1224,11 +1239,19 @@ textarea#message {
         grid-template-columns: 1fr 1fr;
         background-color: #f2f2f2;
         align-items: center;
-
     }
+.master-2 .beer-image {
+   
+        grid-column: 2;
+        grid-row: 1;
+      }
 
     .team-image picture img {
         padding-left: 4rem;
+    }
+    .beer-image picture img {
+        padding-right: 4rem;
+        
     }
 
     .wrap-4 {
@@ -1354,10 +1377,15 @@ textarea#message {
     .construction img {
         height: 26rem;
     }
+  .bar-img {
+        display: inline-block;
+        height: 100%;
+        width: 100%;
+    }
 
     .content-1 {
         display: grid;
-        grid-template-columns: 30% 50%;
+        grid-template-columns: 50% 50%;
 
     }
 
@@ -1394,14 +1422,19 @@ textarea#message {
     /* GRID  */
     .big-wrap-2 {
         display: grid;
-        grid-template-columns: repeat(24, 1fr);
+        grid-template-columns: 50% 40% ;
         grid-template-rows: 1fr;
+        
     }
 
-    .small-1 {
+    /* .small-1 {
         grid-column: 1 / span 11;
         grid-row: 1;
-    }
-
+    } */
+/* map and contact info grid */
+.buttom-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+}
 
 }
