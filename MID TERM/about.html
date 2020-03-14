@@ -15,20 +15,20 @@
                    <img class="logo" src="images/logo.svg" alt="logo" width="88" height="54">
                    <ul class="menu-area">
                            <li><a class="nav-link" href="index.html" >Home</a></li>
-                           <li><a class="nav-link" href="about.html"class="active">About</a></li>
+                           <li><a class="nav-link active" href="about.html">About</a></li>
                            <li><a class="nav-link" href="contact.html">Contact</a></li>
-                       </ul>
-                       </nav>
+                    </ul>
+                </nav>
             </div>
         </header>
     <main>
     <div class="box-1">
         <div class="main-1">
-    <h1>What to expect during construction.</h1>
+    <div class="slide-in-blurred-left"><h1>What to expect during construction.</h1></div>
     <p>With construction starting in April 2019 we anticipate the new arrival of the ARC building as early as August 2021.</p>
     <p>The current SA Fitness Zone and gym will be operating and open as usual. Please visit the Fitness Zone and the Gymnasium for more information on the hours, offerings, and pricing.</p>
         </div>
-    <div class="construction"><img src="images/construction.svg" alt="construction" width="100%" height="200"></div>
+    <div class="construction"><img src="images/construction.svg" alt="construction"></div>
 
     </div>
 
@@ -55,16 +55,14 @@
     </div>
     <div class="wrapper-1">
         <div class="content-1">
-            <div class="bar-img">
-                <picture>
-                        <source media="(min-width:500px)"
-                        srcset="images/bar-318_x_475.jpg 318w">
 
-                          <source media="(min-width:900px)" 
-                          srcset="images/bar-813_x_337.jpg 813w">
-                              <img src="images/bar.jpg" alt="bar">
-                    </picture>  
-                </div>
+                <div class="bar-small">
+                    <img src="./images/bar-218_x_375.jpg" alt="bar-small">    
+               </div>
+            <div class="bar-big">
+            <img src="./images/bar-813_x_337.jpg" alt="bar-big">
+            </div> 
+                
                 <div class="left-content">
         <h3>Need a break?</h3>
         <div class="green-1"><p>Restaurant & Loung </p></div>
@@ -72,20 +70,22 @@
         </div>
         </div>
         <div class="content-2">
-                <!-- <div class="bow-small">
+                 <div class="bow-small">
                         <img src="./images/bowling-218_x_375.jpg" alt="bow-small">    
                 </div>
                 <div class="bow-big">
                 <img src="./images/bowling-813_x_337.jpg" alt="bow-big">
-                </div> -->
+                </div> 
+                <div class="right-content">
          <h3>Competitive friends?</h3>
          <div class="green-2"><p>Bowling Lans</p></div>
          <p>are finally here. Grab your friends and book a lane at the Students’ Association Bowling Lanes that will be part of the upcoming ARC! Don't like bowling? Well, look no further. Practice your swing no matter the weather on the Golf Simulator that will be located in the ARC building.</p>
+         </div>
         </div>
     </div>
         <div class="subscribe">
             <p>Keep up to date with our news letter</p>
-            <button type="button"><a href="file:///Users/test/Documents/RESPONSIVE%20II/PROJECTS/vasy0003.github.io/MID%20TERM/index.html">Subscribe</a></button>
+            <button type="button" onclick="window.location.href='contact.html'"><h3>Subscribe</h3></button>
         </div>
         <div class="wrapper-2">
                 <div class="content-3">
@@ -95,10 +95,12 @@
                         <div class="fit-big">
                         <img src="./images/fitness-813_x_337.jpg" alt="fit-big">
                         </div>
+                        <div class="right-content-1">
                 <h3>New year, new me.</h3>
                <div class="green-3"><p>Fitness Rooms</p></div>
                 <p>Cardio equipment, free weights, selectorized weight equipment and stretching areas will be located in strategically placed locations to best suit your work-out routine.. Indoor walking/running track that will test your endurancewith inclines and declines that weave around fitness nods, the gymnasiums and the lounge area. </p>
                 </div>
+            </div>
                 <div class="content-4">
                         <div class="climb-small">
                                 <img src="./images/climbing-218_x_375.jpg" alt="climb-small">    
@@ -106,12 +108,14 @@
                         <div class="climb-big">
                         <img src="./images/climbing-813_x_337.jpg" alt="climb-big">
                         </div>
+                        <div class="left-content-1">
                  <h3>Indoor climbing?</h3>
                 <div class="green-4"><p>Rock climbing</p></div>
                  <p>Test your strength and flexibility on the rock-climbing wall. Add some variety to your fitness routine, the ARC will be able to offer more yoga and fitness classes to fit into your busy schedule. After a busy day of rock climbing or yoga, come and enjoy our new massage therapy area. </p>
+                 </div>
                 </div>
             </div>
-                <div>
+                
          <div class="icons-2"><h2>Special thank you to the following</h2>
             <div class="icon-wrap">
             <img class="first-img" src="./images/sa.png" alt="first-img" width="300" height="100">
@@ -127,16 +131,18 @@
         <div class="social">
         <p>Follow us</p>
         <div class="icons">
-                <img src="icons/facebook.svg" alt="facebook"  width="50" height="50">
-                <img src="icons/instagram.svg" alt="instagram" width="50" height="50">
-                <img src="icons/twitter.svg" alt="twitter" width="50" height="50">
-                <img src="icons/youtube.svg" alt="youtube"width="60" height="50">
+            <a href="https://www.facebook.com"><img src="icons/facebook.svg" alt="facebook"  width="50" height="50"></a>
+            <a href="https://www.instagram.com"><img src="icons/instagram.svg" alt="instagram" width="50" height="50"></a>
+            <a href="https://twitter.com/?lang=en"><img src="icons/twitter.svg" alt="twitter" width="50" height="50"></a>
+            <a href="https://www.youtube.com"><img src="icons/youtube.svg" alt="youtube" width="60" height="50"></a>
          </div>
          </div>
          <div class="top">
                 <div class="arrow">      
-                       <a href="#"><img src="icons/arrow.svg" alt="arrow"></a>
-                       <p>back to top</p>
+                       <a href="#">
+                           <img src="icons/arrow.svg" alt="arrow">
+                           <p>back to top</p>
+                        </a>
                   </div>
             </div>
     </footer>
