@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="styles/styles.css">
     </head>
     <body>
-     
+     <!-- nav bar -->
       <header>
          <div class="navigation">
              <nav>
@@ -23,6 +23,7 @@
          </div>
         </header>
         <main>
+            <!-- huge wrap that contains everything exept footer -->
       <div class="huge-wrap">
           <div class="super-wrap">
               <div class="super-left">
@@ -30,6 +31,7 @@
         <h1>Discover your ARC.</h1>
         <p>With Algonquin College's newest facility, there's always something for everyone to discover and enjoy!</p>
         </div>
+        <!-- 4 icons in ny banner -->
         <div class="icons-1">
             <div class="one">
         <div class="bowling">
@@ -50,12 +52,12 @@
             <div class="basketball">
                 <a><img src="icons/Icon%20awesome-basketball-ball.svg" alt="Indoor Court"></a>
                <p>Indoor Court</p>
-                </div>
+            </div>
         </div>
         </div>
-    
+    <!-- get started button in top section of the page -->
         <div class="wrap-3">
-                <input type="submit" value="Get started" class="btn">  
+                <input type="submit" onclick="window.location.href='contact.html'" value="Get started" class="btn">  
         </div>
              </div>
              <div class="rotate-in-2-bck-cw">
@@ -64,41 +66,42 @@
         </div>
         </div>
     </div>
+    <!-- scroll down icon -->
     <div class="scroll">
         <p>scroll</p>
             <img class="scroll" src="icons/arrow.svg" alt="scroll" >
         </div>
-
+<!-- wrapeer of team image and text -->
         <div class="master-1">
                  <div class="team-image">
-        
                     <picture>
-                            <source media="(max-width:767px)"
+                            <source media="(max-width:768px)"
                             srcset="images/school-700_x_300.jpg 700w,
-                            images/school-900_x_300.jpg 900w,
-                            images/school-2000_x_337.jpg 2000">
+                            images/school-1100_x_300.jpg 1100w,
+                            images/school-2000_x_337.jpg 2000w"
+                            sizes="50vw">
+
                             <source media="(min-width:1200px)" srcset="images/school-813_x_337.jpg 813w"
                             sizes="100vw">
-                            <img src="images/school-1000_x_250.jpg" alt="beer">
-                        </picture>  
-        </div>
+                            <img src="images/school-1000_x_250.jpg" alt="school">
+                    </picture>  
+                 </div>
+                 <!-- wrapper of text and learn more button -->
       <div class="main-wrap">
             <div class="wrap-4">
                     <h3>Discover.</h3>
                     <h4>Algonquin College</h4>
                     <p>of Applied Arts and Technology is a publicly funded English-language college located in Ottawa, Ontario, Canada. The college serves the National Capital Region and the outlying areas of Eastern Ontario, Western Quebec, and Upstate New York.</p>
+                    <!-- button learn more -->
                     <div class="learn">
                     <div class="btn btn-animation-1">
                         <a href="https://www.w3schools.com/html/">Learn More</a>
                     </div>
                     </div>
-                </div>
-           
-            </div>
-            
-        </div>
-       
-        
+                </div>     
+     </div>         
+     </div>  
+          <!--wrapper that inludes picture of president and text  -->
         <div class="wrap-5">
             <div class="presi">
             <img class="president" src="./images/simon.jpg" alt="President">
@@ -110,18 +113,20 @@
                 <p>"Only with increased capacity can we expand and create a more inclusive program that attracts a greater number of students to participate in physical and social activity. The Students' Association is committed to and focused on programming that results in our students taking person ownership for their health."
                     </p>
         </div>
-        
+        <!-- wrapper that includes responsive images and text  -->
         <div class="master-2">
         <div class="beer-image"> 
                 <picture>
-                        <source media="(max-width:767px)"
+                        <source media="(max-width:768px)"
                         srcset="images/entertainment-700_x_300.jpg 700w,
-                        images/entertainment-1000_x_300.jpg 1000w">
+                        images/entertainment-1000_x_300.jpg 1000w"
+                        sizes="100vw">
                         <source media="(min-width:1200px)" srcset="images/entertainment-813_x_337.jpg 813w"
                          sizes="100vw">
                         <img src="images/entertainment-1000_x_300.jpg" alt="beer">
                     </picture>  
         </div>
+        <!-- text has own div too -->
             <div class="wrap-6">
             <h3>Discover.</h3>
             <h4>The entertainment</h4>
@@ -136,6 +141,7 @@
         </div>
         </div>
         </main>
+        <!-- footer -->
         <footer>
             <div class="social">
             <p>Follow us</p>
@@ -146,6 +152,7 @@
                 <a href="https://www.youtube.com"><img src="icons/youtube.svg" alt="youtube" width="60" height="50"></a>
              </div>
              </div>
+             <!-- back to top -->
              <div class="top">
                     <div class="arrow">      
                            <a href="#">

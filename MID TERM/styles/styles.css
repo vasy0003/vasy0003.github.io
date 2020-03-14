@@ -666,7 +666,7 @@ p+p {
 
 /* BACKGROUNG IMAGE IN SECOND WRAP */
 .box-2 {
-    background-image: url('../images/about copy-475_x_300.jpg');
+    background-image: url('../images/about-375_x_200.jpg');
     height: 200px;
     width: 100%;
     background-size: cover;
@@ -775,10 +775,10 @@ p+p {
 }
 
 /* TEXT IN SUBSCRIBE DIV*/
-.subscribe button h3 {
+.anotherClass {
     text-decoration: none;
     font-size: 1.2rem;
-    font-weight: 400;
+    font-weight: 600;
     color: #f2f2f2;
 }
 
@@ -1185,7 +1185,7 @@ textarea#message {
         font-weight: 500;
 
     }
-    
+
     /* LEARN MORE BUTTON 1 */
     .learn-more [type=submit] {
         height: 2.8rem;
@@ -1272,12 +1272,14 @@ textarea#message {
         grid-template-rows: 1fr;
     }
 
+    /* third wrap */
     .content-3 {
         display: grid;
         grid-template-columns: 40% 60%;
         grid-template-rows: 1fr;
     }
 
+    /* FOURTH WRAP */
     .content-4 {
         display: grid;
         grid-template-columns: 60% 40%;
@@ -1295,12 +1297,14 @@ textarea#message {
         grid-row: 1;
     }
 
+    /* CHANHING THE ORDER OF CLIMBING IMAGE FROM LEFT TO RIGHT */
     .climb-small {
         grid-column: 2;
         grid-row: 1;
         margin-left: 1rem;
     }
 
+    /*  */
     .contact-icon {
         justify-content: center;
         text-align: center;
@@ -1311,13 +1315,16 @@ textarea#message {
 
     }
 
+    /* DISPLAY NON IMAGE OF THE BAR */
     .bar-big {
         display: none;
     }
 
+    /* DISPLAYING IMAGE OF SMALL BAR */
     .bar-small {
         display: block;
     }
+
 
     .bar-big img {
         width: 100%;
@@ -1336,6 +1343,7 @@ textarea#message {
         margin: 5rem;
     }
 
+    /* BACKGROUND IMAGE OF TEAM  */
     .box-2 {
         background-image: url('../images/about-768_x_200.jpg');
         height: 200px;
@@ -1343,6 +1351,7 @@ textarea#message {
         background-size: cover;
     }
 
+    /* BACKGROUNG IMAGE OF COFFEE CUP */
     .box-4 {
         background-image: url('../images/coffee-768_x_200.jpg');
         height: 200px;
@@ -1370,6 +1379,7 @@ textarea#message {
 
     }
 
+
     .submitt input[type=submit] {
         border-radius: 28px;
         width: 40%;
@@ -1386,6 +1396,7 @@ textarea#message {
         justify-content: flex-end;
     }
 
+    /* WRAPED TEXT BESIDE MAP H2 */
     .small-2 h2 {
         font-size: 4.5rem;
         font-weight: 600;
@@ -1393,6 +1404,7 @@ textarea#message {
         padding: 1.5rem 0 2rem 0;
     }
 
+    /* WRAPED TEXT BESIDE MAP H3  */
     .small-2 h3 {
         font-size: 2.3rem;
         line-height: 2.6rem;
@@ -1407,6 +1419,7 @@ textarea#message {
         margin-bottom: 2rem;
     }
 
+    /* WIDTH OF MAP */
     .map iframe {
         width: 100%;
         height: 60vh;
@@ -1496,13 +1509,12 @@ textarea#message {
 
     }
 
-
-
-
+    /* H3 IN BOX-3 WHICH INCLUDES 3 ALIGNED PARAGRAPHS */
     .box-3 h3 {
         font-size: 2.5rem;
     }
 
+    /* PARAGRAPHS FONT SIZE IN BOX-3 WHICH INCLUDES 3 ALIGNED PARAGRAPHS */
     .box-3 p {
         font-size: 1.1rem;
     }
@@ -1535,6 +1547,10 @@ textarea#message {
     /* TEXT SIZE IN SUBSCRIBE BUTTON WRAP */
     .subscribe p {
         font-size: 1.5rem;
+    }
+
+    .subscribe button {
+        width: 12rem;
     }
 
     /*  INCREASING FONT OF H2 ABOVE SPONSORS IMAGES*/
@@ -1705,6 +1721,7 @@ textarea#message {
 
     }
 
+    /* TEXT IN THE CENTER OF COFFEE BACKGROUND IMAGE*/
     .box-2 h2 {
         position: absolute;
         top: 50%;
@@ -1719,7 +1736,7 @@ textarea#message {
         display: none;
     }
 
-
+    /*  SECPND HUGE WRAP */
     .content-2 {
         margin: 0;
     }
@@ -1747,7 +1764,7 @@ textarea#message {
     }
 
 
-
+    /* SUBSCRIBE BUTTON INSIDE IN DIV BETWEEN CONTENT 1 AND 2 */
     .subscribe {
         justify-content: center;
 
@@ -1762,7 +1779,7 @@ textarea#message {
         width: 14rem;
     }
 
-    .subscribe button h3 {
+    .anotherClass {
         font-size: 1.3rem;
     }
 
@@ -1798,16 +1815,19 @@ textarea#message {
         grid-row: 1;
     }
 
+    /* PLACING IMAGE OF CONSCTRUCTION */
     .construction {
         grid-column: 14 / span 24;
         grid-row: 1;
     }
 
+    /* CONSTRUCTION IMAGE HEIGHT */
     .construction img {
         height: 26rem;
 
     }
 
+    /* BACKGROUN IMAGE OF COFFEE*/
     .box-4 {
         background-image: url('../images/coffee-1920_x_250.jpg');
         height: 200px;
@@ -1815,6 +1835,7 @@ textarea#message {
         background-size: cover;
     }
 
+    /* TEXT CENTERED IN COFFEE IMAGE */
     .box-4 h2 {
         position: absolute;
         top: 50%;
@@ -1824,15 +1845,18 @@ textarea#message {
         font-weight: 600;
     }
 
+    /* DISPLAYING BAR BIG IMAGE */
     .bar-big {
         display: block;
 
     }
 
+    /* DISPLAY NONE FOR BIG IMAGE OF THE BAR */
     .bar-small {
         display: none;
     }
 
+    /* GRID FOR FIRST MAIN WRA */
     .content-1 {
         display: grid;
         grid-template-columns: repeat(6, 1fr);
@@ -1851,6 +1875,7 @@ textarea#message {
         grid-row: 1;
     }
 
+    /* GRID FOR SECOND MAIN WRAP */
     .content-2 {
         display: grid;
         grid-template-columns: repeat(6, 1fr);
@@ -1882,6 +1907,7 @@ textarea#message {
 
     }
 
+    /* GIVING 100% WIDTH FOR FITNESS BIG IMAGE */
     .fit-big img {
         width: 100%;
     }
@@ -1892,6 +1918,7 @@ textarea#message {
         grid-row: 1;
     }
 
+    /* RIGHT CONTENT OF SECOND CONTENT WRAP */
     .right-content-1 {
         grid-column: 4 / span 6;
         grid-row: 1;
@@ -1916,6 +1943,7 @@ textarea#message {
         width: 100%;
     }
 
+    /* DISPLAYING BLOCK CLIMB BIG IMAGE AND APPLY GRID */
     .climb-big {
         display: block;
         grid-column: 4/ span 5;
@@ -1929,6 +1957,7 @@ textarea#message {
         padding-bottom: 8rem;
     }
 
+    /* PADDING  3 SAME RAPAgraphs */
     .name-1,
     .name-2,
     .name-3 {
