@@ -149,6 +149,11 @@ html,
 body {
     margin: 0;
     padding: 0;
+
+    
+}
+.second-wrap {
+    max-width: 1920px;
 }
 
 /* NAV BAR*/
@@ -161,7 +166,11 @@ body {
 .navigation li {
     display: block;
 }
-
+/* PADDING TOP FOR THE WRAPPER OF NAV BAR */
+.menu-area {
+    padding-top: 1rem;
+}
+/* SETTONG FOR NAV BAR */
 nav a {
     height: 7vh;
     text-decoration: none;
@@ -171,27 +180,515 @@ nav a {
     align-items: center;
     flex-direction: column;
     text-align: center;
-
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    border-bottom: 1px solid rgba(246, 241, 237, 0.185);
+    font-size: 0.9rem;
+    padding: 1.5rem;
+   
 }
-
-/* LOGO IN NAV BAR*/
+/* PADDING TOP FOR NAVIGATION  */
+.navigation {
+    padding: 2rem 0 0 0;
+}
+/* LOGO */
 .navigation img {
     position: relative;
     margin: 0 auto;
     text-align: center;
     display: block;
+    
 
 }
+/* IMAGE OF ME */
 .main-image {
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 3rem;
     color: white;
-    height: 500px;
+    height: 300px;
     background-image: url("../img/VASYLKIV_N_9.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    position: relative;
  
  }
+
+.main-text {
+    position: absolute;
+    left: 7%;
+    top: 15%;
+}
+.main-text h1 {
+    font-size: 2rem;
+    color: #343434;
+}
+
+ .button-1 {
+    background-color: #343434;
+    border: none;
+    color: white;
+    padding: 12px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    margin-top: 3rem;
+    cursor: pointer;  
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 2px;
+    font-weight: 200;
+}
+
+ .wrap-first {
+     height: 18rem;
+     background-color: #F6F1ED;
+     position: relative;
+ }
+ .wrap-first img {
+     width: 3rem;
+     transform: rotate(180deg);
+ }
+
+.wrap-first .text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+  color: #935548;
+  font-size: 1.2rem;
+  font-family: 'Playfair Display', serif;
+}
+
+
+.three-cards {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;   
+}
+.second-wrap {
+    padding: 4rem 1rem;
+    background-color: #FDF9F8;
+}
+
+
+.card-container img {
+    height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+
+}
+.card-container .btn {
+    height: 2.5rem;
+    width: 100%;
+    background-color: #313131;
+    margin-top: 0.8rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    padding-top: 0.7rem;
+    
+    
+}
+.btn a {
+    font-size: 1.1rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-weight: 200;
+    text-decoration: none;
+}
+.card {
+    position: relative;
+}
+.card h2 {
+    position: absolute;
+    top: 80%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   font-size: 1.1rem;
+   font-family: 'Playfair Display', serif;
+   color: #313131;
+
+}
+/* WRAP ABOVE THE FOOTER ORANGE ONE */
+
+.third-wrap {
+    background-color: #935548;
+       
+}
+
+ /* POSITIONING TEXT ON MY IMAGE AS A RELATIVE */
+
+/* HORIZINTAL LINE ON MY IMAGE */
+.main-text hr {
+    position: absolute;
+    margin-top: 1rem;       
+}
+.main-text h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size:1.1rem;
+    color: #343434;
+    font-weight: 300;
+    margin-top: 0.7rem;
+}
+.text-2 {
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    text-align: center;  
+    padding: 7rem 2rem;
+}
+
+      
+
+/* H1 IN ORANGE WRAPPER */
+.third-wrap h1 {
+    font-size: 2rem;
+    padding-bottom: 1.3rem;
+}
+/* TEXT IN ORANGE WRAPPER */
+.third-wrap p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 100;
+}
+
+/* BUTTON IN THE ORANGE WRAPPER */
+ .button-2 {
+    background-color: #F6F1ED;
+    border: none;
+    color: #935548;
+    padding: 8px 40px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1rem;
+    cursor: pointer;  
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+   
+}
+.container-btn {
+    padding-top: 2rem;
+ }
+/*WRAP IN FOOTER  */
+.footer-content {
+    background-color: #313131;
+    padding:2rem;
+}
+/* FOOTER NAVIGATION */
+.footer-nav {
+    padding: 3rem;
+    padding-bottom: 4rem;
+}
+/* TEXT IN FOOTER */
+.social p {
+    font-size: 1.2rem;
+    font-display: 'Playfair Display', serif;
+    text-align: center;
+    color: rgb(235, 231, 231);
+    padding-bottom: 3rem;
+    font-weight: 200;
+}
+/* APPLYING SETTINGS TO NAVIGATION */
+.footer-nav a {
+    height: 7vh;
+    text-decoration: none;
+    color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 100;
+    padding-bottom: 3rem;
+}
+
+/* FLEXBOX SOCIAL MEDIA ICONS */
+.icons {
+display: flex;
+justify-content: center;
+padding: 0.2rem 0 0 0;
+}
+/* PADDING FOR SOCIAL MEDIA ICONS */
+.icons img {
+    padding: 0 0.5rem;
+}
+/* VERTICAL LINE ABOWE IN FOOTER */
+.social hr {
+    transform: rotate(90deg);
+    margin-bottom: 2rem;
+    color: rgb(255, 41, 41);
+}
+/* ABOUT PAGE */
+.about-large {
+    background-color: #F6F1ED;
+    padding:  5rem 4rem;
+}
+
+/* text ABOUT ME */
+.about-text {
+    font-size: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #313131;
+    line-height: 1.5rem;
+}
+/* H1 IN TEXT ABOUT ME */
+.about-text h1 {
+    font-family: 'Playfair Display', serif;
+    color: #935548;
+    font-size: 1.5rem;
+    padding-bottom: 2rem;
+}
+/* PHOTO OF ME IN ABOUT PAGE */
+.about-photo {
+    padding-top: 2rem;
+}
+.about-photo img {
+    display: block;
+    width: 100%;
+    border: 12px solid #ffffff;
+ 
+}
+
+/* PORTFOLIO PAGE */
+.portfolio-top {
+    background-color: #F6F1ED;
+    height: 7rem;
+}
+.portfolio-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 2rem;
+    background-color: #FDF9F8;
+}
+.portfolio-container img {
+    width: 100%;
+  height: auto;
+}
+.portfolio-main h1 {
+    text-align: center;
+    padding: 2rem;
+    font-size: 1.3rem;
+    color: #935548;
+    font-family: 'Playfair Display', serif;
+}
+/* TEXT HOVER OVER THE TOP OF IMAGES IN PORTFOLIO */
+span.text-content span {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+  .card-container .card:hover span.text-content {
+    opacity: 1;
+  }
+  span.text-content {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    color: #FDF9F8;
+    font-size: 30px;
+    cursor: pointer;
+    display: table;
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 100%;
+    opacity: 0;
+    -webkit-transition: opacity 500ms;
+    -moz-transition: opacity 500ms;
+    -o-transition: opacity 500ms;
+    transition: opacity 500ms;  
+  }
+  /* contact page  */
+  .contact-master {
+      background-color: #F6F1ED;
+      padding: 6rem 0;
+  }
+
+ @media only screen and (min-width:768px) {
+    .menu-area a {
+        color: #fff;
+        padding: 0 25px;
+        font-size: 16px;
+        line-height: 30px;
+        position: relative;
+        border: none;
+    }
+.navigation {
+    padding: 0;
+}
+.container-main .main-image {
+    height: 28rem;
+ }
+    .navigation nav {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: space-between;
+    }
+
+    /* NAVIGATION wrap */
+    .menu-area {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 0;
+        margin-right: 2rem;
+    }
+
+    /* NAVIGATION LOGO */
+    .navigation nav img {
+        justify-self: start;
+        margin: 0;
+        margin-left: 3rem;
+    }
+ 
+    .main-text hr {
+        margin-top: 1.7rem;
+    }
+
+.wrap-first .text {
+  font-size: 2rem; 
+}
+
+.three-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+    
+}
+.card-container {
+    width: 33.3333%;
+    padding:1rem;
+}
+.second-wrap {
+    padding-top: 6rem;
+    
+}
+.main-text h1 {
+    font-size: 2.8rem;
+}
+.main-image {
+    position: relative;
+}
+.main-text {
+    position: absolute;
+    left: 7%;
+    top: 33%;
+}
+
+
+.third-wrap h1 {
+    font-size: 2.7rem;
+}
+.third-wrap p {
+    font-size: 1.2rem;
+}
+.container-btn {
+   padding-top: 2rem;
+}
+
+/* ABOUT PAGE */
+.about-large {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    
+}
+
+.about-text {
+    padding: 3rem 0 0 1.5rem;
+}
+.footer-content {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 1fr;
+}
+.footer-nav {
+    grid-column: 1 / span 2;
+    grid-row: 1;
+    padding-bottom: 0;
+}
+.social {
+    grid-column: 4 / span 6;
+    grid-row: 1; 
+    padding-top: 7rem;
+}
+.footer-nav ul li a {
+    display: inline;
+    
+}
+.footer-nav ul li {
+    padding-bottom: 1rem;
+}
+}
+ @media only screen and (min-width: 960px) {
+     .container-main .main-image {
+        height: 600px;
+     }
+/* orange wrap */
+     .third-wrap h1 {
+        font-size: 4rem;
+    }
+    .third-wrap p {
+        font-size: 1.2rem;
+    }
+    /* Add some padding aroun three containers */
+    .second-wrap {
+        padding: 8rem 10rem;
+    }
+    .card-container .btn {
+        height: 3rem;
+        margin-top: 1rem;
+        padding-top:0.9rem;
+    }
+    .main-text h1 {
+        font-size: 5rem;
+    }
+    .main-text h2 {
+        font-size: 1.7rem;
+        margin-top: 1rem;
+    }
+    .button-1 {
+        padding: 12px 45px;
+        font-size: 1.1rem;
+        margin-top: 4rem;       
+    }
+    /* about PAGE MAIN WRAP */
+    .about-large {
+        padding: 10rem 13rem;
+        
+    }
+    /* ABOUT TEXT */
+    .about-text {
+        padding-top: 4rem;
+    }
+    .about-text p {
+        font-size: 1.2rem;
+        line-height: 1.9rem;
+    }
+    /* H2 IN CARDS  */
+    .card h2 {
+        font-size: 1.5rem;
+    }
+    /* SOCIAL MEDIA ICONS FOLLOW ME  */
+    .social p {
+        font-size: 1.6rem;
+    }
+    /* BUTTON IN ORANGE WRAP MAKE IT BIGGER! */
+    .button-2 {
+        padding: 10px 65px;
+        font-size: 1.1rem;
+        font-weight: 300;
+    }
+    }
