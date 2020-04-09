@@ -149,10 +149,11 @@ html,
 body {
     margin: 0;
     padding: 0;
-    width: 100%;
-
-    
+    height: 100%;
+       
 }
+
+
 .second-wrap {
     max-width: 1920px;
 }
@@ -263,6 +264,7 @@ nav a {
   color: #935548;
   font-size: 1.2rem;
   font-family: 'Playfair Display', serif;
+  
 }
 
 
@@ -553,16 +555,21 @@ span.text-content span {
   }
   .video-wrap-1 {
       background-color: #FDF9F8;
+      width: 100%;
+      
   }
   .first-video-text {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding: 3rem 1rem;
+      
+
   }
   .first-video-text h2 {
       text-align: center;
       font-size: 1.1rem;
       color: #935548;
       font-family: 'Playfair Display', serif;
+      padding-bottom: 1rem;
+      
      
   }
   .first-video-text p {
@@ -573,7 +580,40 @@ span.text-content span {
       font-family:'Open Sans', sans-serif;
       font-weight: 200;
   }
-
+  /* CONTACT PAGE */
+  .gallery {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-width: 33%;
+    -moz-column-width: 33%;
+    column-width: 33%; }
+    .gallery .pics {
+    -webkit-transition: all 350ms ease;
+    transition: all 350ms ease; }
+    .gallery .animation {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1); }
+    
+    @media (max-width: 450px) {
+    .gallery {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+    -webkit-column-width: 100%;
+    -moz-column-width: 100%;
+    column-width: 100%;
+    }
+    }
+    
+    @media (max-width: 400px) {
+    .btn.filter {
+    padding-left: 1.1rem;
+    padding-right: 1.1rem;
+    }
+    } 
+  
  @media only screen and (min-width:768px) {
     .menu-area a {
         color: #fff;
@@ -699,9 +739,23 @@ span.text-content span {
 }
 /* VIDEO PAGE */
 .first-video iframe {
-    height: 80%;
-    width: 80%;
+    height: 90%;
+    width: 90%;
  
+}
+.video-wrap-2 h1 {
+    font-size: 2.5rem;
+}
+.first-video-text h2 {
+    font-size: 1.7rem;
+    padding-bottom: 1.5rem;
+}
+.first-video-text {
+    padding-bottom: 3rem;
+}
+.first-video-text p {
+    font-size: 1.1rem;
+    line-height: 2rem;
 }
 }
  @media only screen and (min-width: 960px) {
@@ -762,5 +816,9 @@ span.text-content span {
         padding: 10px 65px;
         font-size: 1.1rem;
         font-weight: 300;
+    }
+    /* video page */
+    .first-video-text {
+        padding-top: 0;
     }
     }
