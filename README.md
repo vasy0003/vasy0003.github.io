@@ -13,4 +13,12 @@ I met some challenges while working on this project. One of the biggest problems
 
 ## What I learned
 
-## I learned a lot. The first thing is that I can solve the problem by myself without tutors, but google and inspector tool are my best friends. At the beginning of responsive web course, I did not use inspector tool but working on my portfolio website I used inspector tool even more than actual CSS because it saves a lot of time when you want to apply some adjustment and/or find the problem and a lot more. It is an essential tool. Also, I realized that my mock-up includes a lot of nice-looking design element, but they are complicated from the developers’ perspective. So, the lesson is that when designing a website, I will think not only about the look but also about developing process.
+I learned a lot. The first thing is that I can solve the problem by myself without tutors, but google and inspector tool are my best friends. At the beginning of responsive web course, I did not use inspector tool but working on my portfolio website I used inspector tool even more than actual CSS because it saves a lot of time when you want to apply some adjustment and/or find the problem and a lot more. It is an essential tool. Also, I realized that my mock-up includes a lot of nice-looking design element, but they are complicated from the developers’ perspective. So, the lesson is that when designing a website, I will think not only about the look but also about developing process.
+
+# Resourses
+
+## Tools
+
+Reset CSS
+https://meyerweb.com/eric/tools/css/reset/
+
