@@ -707,19 +707,19 @@ nav a {
 
 
 /* TEXT HOVER OVER THE TOP OF IMAGES IN PORTFOLIO */
-span.text-content span {
+.overlay .text24 {
     display: table-cell;
     text-align: center;
     vertical-align: middle;
 }
 
-.card-container .card:hover span.text-content {
+.card-container .card:hover .overlay {
     opacity: 100%;
     background: rgba(0, 0, 0, 0.233);
 }
 
 
-span.text-content {
+.overlay {
     position: absolute;
     background: rgba(0, 0, 0, 0.767);
     color: #F6F1ED;
