@@ -1032,6 +1032,9 @@ textarea {
 .contact-im  [type="submit"]:hover {
     background: #935548;
 }
+.contact-im ::placeholder {
+    color: #331133;
+}
 
 .contact-text p {
     font-size: 1rem;
