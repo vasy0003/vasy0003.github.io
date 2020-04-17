@@ -229,7 +229,7 @@ nav a {
     align-items: center;
     font-size: 3rem;
     color: white;
-    height: 300px;
+    height: 320px;
     background-image: url("../img/VASYLKIV_N_9.jpg");
     background-position: center;
     background-size: cover;
@@ -237,7 +237,11 @@ nav a {
     position: relative;
 
 }
-
+.line {
+    border-bottom: 3px solid #ffffff;
+    width: 3rem;
+    margin: 0 auto;
+}
 .main-text {
     position: absolute;
     left: 7%;
@@ -245,8 +249,11 @@ nav a {
 }
 
 .main-text h1 {
-    font-size: 2rem;
+    font-size: 2.2rem;
     color: #363636;
+}
+.text h1 {
+    padding-bottom: 1rem;
 }
 
 .button-1 {
@@ -282,7 +289,7 @@ nav a {
 }
 
 .wrap-first {
-    height: 18rem;
+    height: 15rem;
     background-color: #F6F1ED;
     position: relative;
 }
@@ -300,7 +307,7 @@ nav a {
     width: 100%;
     text-align: center;
     color: #935548;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     font-family: 'Playfair Display', serif;
 
 }
@@ -321,7 +328,7 @@ nav a {
 }
 
 .second-wrap {
-    padding: 4rem 1.5rem;
+    padding: 4rem 2.5rem;
     background-color: #FDF9F8;
 }
 
@@ -411,7 +418,7 @@ nav a {
 
 /* H1 IN ORANGE WRAPPER */
 .third-wrap h1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     padding-bottom: 1.3rem;
 }
 
@@ -419,7 +426,7 @@ nav a {
 .third-wrap p {
     font-family: 'Montserrat', sans-serif;
     font-size: 0.8rem;
-    font-weight: 100;
+    font-weight: 300;
 }
 
 /* BUTTON IN THE ORANGE WRAPPER */
@@ -427,13 +434,13 @@ nav a {
     background-color: #F6F1ED;
     border: none;
     color: #935548;
-    padding: 8px 40px;
+    padding: 8px 49px;
     text-align: center;
     text-decoration: none;
     font-size: 1rem;
     cursor: pointer;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 200;
+    font-weight: 300;
 
 }
 
@@ -773,8 +780,8 @@ span.text-content {
     text-align: center;
     background-color: #F6F1ED;
     padding: 5rem 0;
-    font-size: 1.3rem;
-    color: #4d4d4d;
+    font-size: 1.8rem;
+    color: #5c5c5c;
     font-weight: 500;
     font-family: 'Playfair Display', serif;
 
