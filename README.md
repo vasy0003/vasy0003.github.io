@@ -34,5 +34,5 @@ https://www.flaticon.com
 
 - Primary-Montserrat 
 https://fonts.google.com/specimen/Montserrat?query=monts
--Secondary-Playfair Display
+- Secondary-Playfair Display
 https://fonts.google.com/specimen/Playfair+Display?query=play
