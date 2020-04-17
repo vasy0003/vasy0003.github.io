@@ -205,6 +205,7 @@ nav a {
 .menu-area a:hover {
     color: #F6F1ED;
     font-weight: bold;
+   
 }
 
 /* PADDING TOP FOR NAVIGATION  */
@@ -239,7 +240,7 @@ nav a {
 
 }
 .line {
-    border-bottom: 3px solid #ffffff;
+    border-bottom: 2px solid #757575;
     width: 3rem;
     margin: 0 auto;
 }
@@ -326,6 +327,7 @@ nav a {
     list-style: none;
     margin: 0;
     padding: 0;
+    justify-content: center;
 }
 
 .second-wrap {
@@ -374,6 +376,7 @@ nav a {
 
 .card {
     position: relative;
+    max-width: 400px;
 }
 
 .card h2 {
@@ -448,6 +451,7 @@ nav a {
 .button-2:hover {
 
     background: rgb(255, 255, 255);
+    box-shadow: 5px 10px 8px #0000003f;
 
 }
 
@@ -505,10 +509,13 @@ nav a {
 }
 
 /* VERTICAL LINE ABOWE IN FOOTER */
-.social hr {
+
+.social-line {
+    border-bottom: 1px solid white;
     transform: rotate(90deg);
+    width: 40px;
+    margin: 0 auto;
     margin-bottom: 2rem;
-    color: white;
 }
 
 /* ABOUT PAGE */
@@ -526,7 +533,7 @@ nav a {
 /* text ABOUT ME */
 .about-text {
     font-size: 1rem;
-    font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     color: #313131;
     line-height: 1.5rem;
@@ -624,12 +631,16 @@ nav a {
 }
 
 .master-1 .btn:hover {
-    background-color: #5c5c5c;
+    background-color: transparent;
+    box-shadow: 5px 10px 8px #8888883f;
+    transform: scale(1.1);
 
 }
 
 .master-2 .btn:hover {
-    background-color: #5c5c5c;
+    background-color: transparent;
+    box-shadow: 5px 10px 8px #8888883f;
+    transform: scale(1.1);
 }
 
 .master-2 .btn {
@@ -704,13 +715,15 @@ span.text-content span {
 }
 
 .card-container .card:hover span.text-content {
-    opacity: 1;
+    opacity: 100%;
+    background: rgba(0, 0, 0, 0.233);
 }
+
 
 span.text-content {
     position: absolute;
-    background: rgba(0, 0, 0, 0.5);
-    color: #FDF9F8;
+    background: rgba(0, 0, 0, 0.767);
+    color: #F6F1ED;
     font-size: 30px;
     cursor: pointer;
     display: table;
@@ -718,11 +731,12 @@ span.text-content {
     left: 0;
     top: 0;
     width: 100%;
-    opacity: 0;
+    opacity: 50%;
     -webkit-transition: opacity 500ms;
     -moz-transition: opacity 500ms;
     -o-transition: opacity 500ms;
     transition: opacity 500ms;
+    
 }
 
 /* contact page  */
@@ -992,7 +1006,7 @@ form {
 }
 
 .feedback-input {
-    color: white;
+    color: rgb(24, 24, 24);
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 16px;
