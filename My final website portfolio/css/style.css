@@ -332,7 +332,7 @@ nav a {
 
 }
 
-.card-container .btn {
+.card-container .button-3 {
     height: 2.5rem;
     width: 100%;
     background-color: #313131;
@@ -342,6 +342,9 @@ nav a {
     padding-top: 0.7rem;
 
 
+}
+.button-3 {
+    padding: 12px 45px;
 }
 
 .card-container .btn:hover {
